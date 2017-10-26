@@ -13,7 +13,9 @@ Once you obtain one, add it to the `api/Dockerfile`
 ### API
 
 To run standalone:
+
 `docker build --tag <username/api> .`
+
 `docker run -p <host>:3000 <username>/api-test`
 
 ### Website
@@ -21,7 +23,9 @@ To run standalone:
 This is served by nginx so first build using `npm run-script build`
 
 To run standalone:
+
 `docker build --tag <username/bestestapp> .`
+
 `docker run -p <host>:3000 <username/bestestapp>`
 
 
