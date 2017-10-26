@@ -1,0 +1,38 @@
+.App, body {
+  text-align: center;
+  height: 100%;
+  color: #111;
+}
+
+.App-header {
+ 
+  height: 150px;
+  padding: 20px;
+  
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.icon-demo {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+.icon-usage canvas, input {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

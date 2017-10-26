@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    api:
+        build: api/.
+        ports: 
+            - "3000:3000"
+    
+    bestweatherapp:
+        build: bestest-app/.
+        ports:
+            - "8080:80"
+        volumes:
+            - ./bestest-app:/src
+
+
