@@ -3,7 +3,7 @@ const fetch = require('isomorphic-fetch')
 
 const PORT = 3000
 const HOST = '0.0.0.0'
-const APIKEY  = process.env.APIKEY || 'a09ca28ba9260a47'
+const APIKEY  = process.env.APIKEY
 const app = Express()
 
 const location = {
@@ -48,5 +48,4 @@ app.get('/', (req, res) => res.end(200))
 
 app.listen(PORT, HOST)
 console.log(`API is running on http://${HOST}:${PORT}`)
-// iasi romania 47.1585° N, 27.6014° E
 
